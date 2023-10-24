@@ -1,9 +1,13 @@
 {
+  "version": 2,
+  "name": "music-album",
+  "builds": [
+     { "src": "app.js", "use": "@vercel/node" }
+  ],
+
     "rewrites": [{ "source": "/api/(.*)", "destination": "/api" }],
     
   "github": {
     "silent": true
   }
-
-    
   }
